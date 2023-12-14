@@ -1,0 +1,153 @@
+* {
+    font-family: Comic Sans MS
+}
+.flex {
+    display: flex;
+}
+/* Header Start */
+.top-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #9900FF;
+}
+select span {
+    content: "\20AC";
+}
+.top {
+    background-color: #000000;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    color: white;
+}
+.top span {
+    color: #9900FF;
+}
+.top h1 {
+    font-size: xxx-large;
+}
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    /* gap: 200px; */
+}
+.nav-bar li {
+    list-style-type: none;
+    font-size: x-large;
+}
+.checkout img {
+    height: 40px;
+}
+.checkout {
+    align-items: center;
+}
+li img {
+    height: 40px;
+}
+.checkout h2 {
+    text-decoration: underline;
+}
+.checkout {
+    gap: 5px;
+}
+/* Header End */
+/* Main Start */
+.main-body {
+    flex-direction: column;
+}
+.top-line h3 {
+    margin-left: 250px;
+}
+.arrows {
+    height: 60px;
+}
+.middle-image {
+    align-items: center;
+    justify-content: space-around;
+}
+.bar {
+    height: 10px;
+    width: 80px;
+    background-color: grey;
+}
+.click-bar {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.purple {
+    background-color: #9900FF;
+}
+.card {
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-row {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.card img {
+    width: 100%;
+    height: 45%;
+}
+.mid-bar img {
+    height: 30px;
+    width: 30px;
+}
+.mid-bar {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 40px;
+}
+.bottom-row h4 {
+    font-size: x-large;
+}
+.card-bottom {
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.flasher {
+    background-color: #9900FF;
+    height: 50px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.prices {
+    flex-direction: column;
+    
+}
+.card-bottom button {
+    background-color: green;
+    height: 30px;
+    width: 60px;
+    box-shadow: 2px 2px black;
+    color: white;
+}
+.prices h5 {
+    padding: 0;
+    margin: 0;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color: grey;
+}
+.card-bottom {
+    justify-content: space-between;
+}
+.card h4 {
+    margin-left: 10px;
+}
+.flasher h5 {
+    color: white;
+}
+/* Main End */
